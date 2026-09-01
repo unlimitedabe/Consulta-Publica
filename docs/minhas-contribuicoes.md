@@ -1,6 +1,6 @@
 # Minhas contribuições técnicas
 
-Este documento detalha parte das contribuições que realizei no desenvolvimento do **Participa Goiás** durante minha atuação na Casa Civil do Estado de Goiás.
+Este documento detalha parte das contribuições que realizei no desenvolvimento do **Consulta Pública** durante minha atuação na Casa Civil do Estado de Goiás.
 
 Atuei no projeto como desenvolvedor **full stack**, trabalhando com **Ruby on Rails** no backend e **Vue.js** no frontend.
 
