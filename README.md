@@ -58,7 +58,7 @@ Também desenvolvi funcionalidades no frontend em Vue.js, embora o histórico Gi
 
 ## Arquitetura
 
-![Arquitetura do Participa Goiás](assets/diagramas/arquitetura-consulta-publica.drawio.svgsvg)
+![Arquitetura do Participa Goiás](assets/diagramas/arquitetura-consulta-publica.drawio.svg)
 
 <!-- ```text
 ┌──────────────────────────┐

@@ -231,7 +231,7 @@ A comunicação entre o Vue.js e o Rails ocorria por meio de requisições HTTP 
 
 O fluxo era:
 
-![Integração entre Vue.js e Rails](../assets/diagramas/integracao-frontend-backend.svg)
+![Integração entre Vue.js e Rails](../assets/diagramas/integracao-frontend-backend.drawio.svg)
 
 <!-- ```mermaid
 sequenceDiagram
