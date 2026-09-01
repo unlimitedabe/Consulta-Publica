@@ -18,7 +18,7 @@ A solução era composta por uma aplicação web com:
 - autenticação e controle de permissões integrados a componentes internos;
 - módulos internos responsáveis pelos modelos e parte das regras de negócio.
 
-E sua aparência foi feita em cima da seguinte [Proposta Visual](assets/imagens)
+E sua aparência foi feita em cima da seguinte [proposta visual](assets/imagens)
 
 ## Minha atuação
 
