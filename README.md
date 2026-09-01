@@ -18,6 +18,8 @@ A solução era composta por uma aplicação web com:
 - autenticação e controle de permissões integrados a componentes internos;
 - módulos internos responsáveis pelos modelos e parte das regras de negócio.
 
+E sua aparência foi feita em cima da seguinte proposta visual * [Aparência](assets/imagens)
+
 ## Minha atuação
 
 Atuei no projeto como desenvolvedor **full stack**, trabalhando tanto no frontend em Vue.js quanto no backend em Ruby on Rails.
