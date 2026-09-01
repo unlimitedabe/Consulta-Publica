@@ -12,6 +12,8 @@ O projeto também utilizava um módulo interno específico para autenticação e
 
 A arquitetura reconstruída a partir do material preservado pode ser representada da seguinte forma:
 
+![Arquitetura do Consulta Pública](../assets/diagramas/arquitetura-consulta-publica.drawio.svg)
+
 ```mermaid
 flowchart TB
     USER["Usuário administrativo"]
@@ -54,8 +56,7 @@ flowchart TB
     BUSINESS -->|"ActiveRecord"| DB
 
     CONTROLLERS --> MAIL
-````
-
+```
 ---
 
 ## Frontend
@@ -232,24 +233,8 @@ A comunicação entre o Vue.js e o Rails ocorria por meio de requisições HTTP 
 O fluxo era:
 
 ![Integração entre Vue.js e Rails](../assets/diagramas/integracao-frontend-backend.drawio.svg)
-
-<!-- ```mermaid
-sequenceDiagram
-    participant U as Usuário
-    participant V as Vue.js
-    participant R as Rails API
-    participant N as casacivil_negocio
-    participant D as PostgreSQL
-
-    U->>V: Interage com a interface
-    V->>R: Requisição HTTP
-    R->>N: Executa operação de negócio
-    N->>D: Consulta ou altera dados
-    D-->>N: Resultado
-    N-->>R: Objetos do domínio
-    R-->>V: Resposta JSON
-    V-->>U: Atualiza a interface
-``` -->
+![Integração entre Vue.js e Rails](../assets/diagramas/fluxo-comunicacao-front-back.svg)
+![Integração entre Vue.js e Rails](../assets/diagramas/fluxo-comunicacao-front-back.png)
 
 Esse modelo mantinha frontend e backend desacoplados e permitia que cada camada tivesse responsabilidades distintas.
 

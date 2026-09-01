@@ -206,9 +206,9 @@ Essas informações eram preparadas pelo backend para apresentação visual no f
 
 ---
 
-# Fluxo funcional simplificado
+# Fluxo funcional
 
-De maneira resumida, o fluxo administrativo do sistema podia ser representado como:
+O fluxo administrativo do sistema podia ser representado como:
 
 ![Fluxo de uma Consulta Pública](../assets/diagramas/fluxo-consulta-publica.drawio.svg)
 
