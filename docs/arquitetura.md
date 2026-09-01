@@ -14,49 +14,6 @@ A arquitetura reconstruída a partir do material preservado pode ser representad
 
 ![Arquitetura do Consulta Pública](../assets/diagramas/arquitetura-consulta-publica.drawio.svg)
 
-```mermaid
-flowchart TB
-    USER["Usuário administrativo"]
-
-    subgraph FRONT["Frontend"]
-        VUE["Aplicação Vue.js"]
-        ROUTER["Roteamento e telas"]
-        SERVICES["Serviços de acesso à API"]
-    end
-
-    subgraph BACK["Backend - Ruby on Rails 6"]
-        API["API /api/v1"]
-        CONTROLLERS["Controllers"]
-        JSON["Respostas JSON / Jbuilder"]
-        AUTH["Autenticação e permissões"]
-        MAIL["Notificações por e-mail"]
-    end
-
-    subgraph INTERNAL["Componentes internos"]
-        BUSINESS["casacivil_negocio<br/>Models e regras de negócio"]
-        PERMISSIONS["casacivilgo_permissoes"]
-    end
-
-    DB[("PostgreSQL")]
-
-    USER --> VUE
-    VUE --> ROUTER
-    ROUTER --> SERVICES
-
-    SERVICES -->|"HTTP / JSON"| API
-
-    API --> CONTROLLERS
-    CONTROLLERS --> JSON
-    JSON -->|"HTTP / JSON"| SERVICES
-
-    CONTROLLERS --> BUSINESS
-    CONTROLLERS --> AUTH
-    AUTH --> PERMISSIONS
-
-    BUSINESS -->|"ActiveRecord"| DB
-
-    CONTROLLERS --> MAIL
-```
 ---
 
 ## Frontend
@@ -232,8 +189,7 @@ A comunicação entre o Vue.js e o Rails ocorria por meio de requisições HTTP 
 
 O fluxo era:
 
-![Integração entre Vue.js e Rails](../assets/diagramas/integracao-frontend-backend.drawio.svg)
-![Integração entre Vue.js e Rails](../assets/diagramas/fluxo-comunicacao-front-back.svg)
+<!-- ![Integração entre Vue.js e Rails](../assets/diagramas/integracao-frontend-backend.drawio.svg) -->
 ![Integração entre Vue.js e Rails](../assets/diagramas/fluxo-comunicacao-front-back.png)
 
 Esse modelo mantinha frontend e backend desacoplados e permitia que cada camada tivesse responsabilidades distintas.
