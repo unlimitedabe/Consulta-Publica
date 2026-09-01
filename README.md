@@ -56,9 +56,11 @@ Também desenvolvi funcionalidades no frontend em Vue.js, embora o histórico Gi
 
 `Git` · `GitLab`
 
-## Arquitetura simplificada
+## Arquitetura
 
-```text
+![Arquitetura do Participa Goiás](assets/diagramas/arquitetura-consulta-publica.drawio.svgsvg)
+
+<!-- ```text
 ┌──────────────────────────┐
 │        Vue.js            │
 │   Interface web/admin    │
@@ -87,7 +89,7 @@ Também desenvolvi funcionalidades no frontend em Vue.js, embora o histórico Gi
 ┌──────────────────────────┐
 │       PostgreSQL         │
 └──────────────────────────┘
-```
+``` -->
 
 ## Interface e referências de produto
 

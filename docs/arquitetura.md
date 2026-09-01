@@ -229,9 +229,11 @@ Em algumas funcionalidades também eram utilizadas consultas SQL mais específic
 
 A comunicação entre o Vue.js e o Rails ocorria por meio de requisições HTTP e respostas JSON.
 
-O fluxo simplificado era:
+O fluxo era:
 
-```mermaid
+![Integração entre Vue.js e Rails](../assets/diagramas/integracao-frontend-backend.svg)
+
+<!-- ```mermaid
 sequenceDiagram
     participant U as Usuário
     participant V as Vue.js
@@ -247,7 +249,7 @@ sequenceDiagram
     N-->>R: Objetos do domínio
     R-->>V: Resposta JSON
     V-->>U: Atualiza a interface
-```
+``` -->
 
 Esse modelo mantinha frontend e backend desacoplados e permitia que cada camada tivesse responsabilidades distintas.
 

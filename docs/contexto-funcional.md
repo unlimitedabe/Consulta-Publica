@@ -210,7 +210,9 @@ Essas informações eram preparadas pelo backend para apresentação visual no f
 
 De maneira resumida, o fluxo administrativo do sistema podia ser representado como:
 
-```text
+![Fluxo de uma Consulta Pública](../assets/diagramas/fluxo-consulta-publica.svg)
+
+<!-- ```text
 Criação da Consulta Pública
             │
             ▼
@@ -233,7 +235,7 @@ Resultado da análise
             │
             ▼
 Acompanhamento pelo painel
-````
+```` -->
 
 ---
 
